@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/math.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.counterWeb {
+    text-align: center;
+}
+
+.counterContainer {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; 
+}
+
+.counterCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counterCenter p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Courier New';
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+#reset {
+    margin-top: 10px;
+}
